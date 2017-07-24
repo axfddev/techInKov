@@ -482,9 +482,7 @@ body {
     padding: 20px;
 }
 
-.reviews__slider-item {
 
-}
 
 .reviews__slider-img {
     width: calc(100% - 40px) !important;
@@ -492,6 +490,9 @@ body {
     box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
 }
 
+.reviews__slider-item:hover .reviews__slider-img  {
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.6);
+}
 /* Раздел контакты*/
 
 .contacts{

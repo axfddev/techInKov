@@ -1,8 +1,9 @@
 "use strict";
 $(function() {
+    new WOW().init();
     svg4everybody();
     $('.owl-carousel').owlCarousel({
-        loop:true,
+        //loop:true,
         items:4,
         //margin: 40,
         dotsEach: 3
@@ -39,6 +40,4 @@ $(function() {
 
 
     })
-
-    new WOW().init();
 })
